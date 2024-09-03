@@ -7,8 +7,13 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>C:\cert\keypair.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>D:\Github\cert\keypair.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>img\backdrop icon 4.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="img\backdrop icon 4.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">
